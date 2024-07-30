@@ -1,0 +1,5 @@
+texto = input('Digite um texto:\n')
+espacamento = int(input('Digite o numero de vezes que * será repetido\n'))
+print('*'*espacamento)
+print(texto.center(espacamento))
+print('*'*espacamento)

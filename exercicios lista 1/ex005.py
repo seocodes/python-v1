@@ -1,0 +1,5 @@
+name = str(input('Qual seu nome?\n'))
+cargo = str(input('Qual seu cargo\n'))
+salario = float(input('Qual seu salário?\n'))
+aumento = salario+(salario*(5/100))
+print(f'Seu salário após um aumento de 5% será de {aumento}')
